@@ -1,6 +1,6 @@
 import socket 
 
-host = socket.gethostname()
+host = "localhost"
 port = 9337
 
 sock_ = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
